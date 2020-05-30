@@ -14,12 +14,12 @@
         <module>resttemplate</module>
         <module>consumer</module>
         <module>zuul2</module>
-        <module>provider2</module>
         <module>ribbon</module>
         <module>feign</module>
         <module>hystrix</module>
         <module>nativeConfigServer</module>
         <module>nativeconfigclient</module>
+        <module>jenkins-test</module>
     </modules>
 
     <parent>
@@ -41,6 +41,19 @@
             <version>1.18.6</version>
             <scope>provided</scope>
         </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>com.alibaba</groupId>-->
+<!--            <artifactId>druid-spring-boot-starter</artifactId>-->
+<!--            <version>1.1.10</version>-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>org.springframework</groupId>-->
+<!--            <artifactId>spring-jdbc</artifactId>-->
+<!--            <version>4.2.5.RELEASE</version>-->
+<!--        </dependency>-->
+
     </dependencies>
 
     <dependencyManagement>

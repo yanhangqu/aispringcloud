@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hystrix" />
         <module name="nativeConfigServer" />
+        <module name="jenkinstest" />
         <module name="resttemplate" />
         <module name="feign" />
         <module name="nativeconfigclient" />
@@ -31,6 +32,7 @@
       <module name="eurekaserver" options="-parameters" />
       <module name="feign" options="-parameters" />
       <module name="hystrix" options="-parameters" />
+      <module name="jenkinstest" options="-parameters" />
       <module name="nativeConfigServer" options="-parameters" />
       <module name="nativeconfigclient" options="-parameters" />
       <module name="provider2" options="-parameters" />

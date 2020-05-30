@@ -12,4 +12,9 @@ public class Controller {
     public String jenkinsTest(){
         return "this is jenkins";
     }
+
+    @GetMapping("/jenkinsTest1")
+    public String jenkinsTes1(){
+        return "this is jenkins1";
+    }
 }
