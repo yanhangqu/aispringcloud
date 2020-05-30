@@ -49,4 +49,10 @@ public class StudentHandler {
         return "当前服务端口:"+ this.port;
     }
 
+
+    @GetMapping("/index2")
+    public String index2(){
+        return "当前服务端口:"+ this.port;
+    }
+
 }
