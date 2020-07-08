@@ -55,7 +55,14 @@ public class ConsumerHandler {
     }
 
     @GetMapping("index")
-    public String index(){
+    public String myindex(){
+        System.out.println("==============修改的代码=================");
+        return "get index";
+    }
+
+    @GetMapping("/git")
+    public String git(){
+        System.out.println("=============新增的代码==============");
         return restTemplate.getForObject("http://provider/student/index",String.class);
     }
 
